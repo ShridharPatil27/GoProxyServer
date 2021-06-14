@@ -3,9 +3,11 @@ A simple reverse proxy server in Go with features like request and response head
 
 Directory **OriginalServer** contains a simple http server which serves two routes with url as mentioned below:-
 1. http://localhost:5000/about.html
+
 ![image](https://user-images.githubusercontent.com/85868251/121869320-8db40e80-cd1f-11eb-9193-b60c4c6fdc76.png)
 
 2. http://localhost:5000/admin/contact.html
+
 ![image](https://user-images.githubusercontent.com/85868251/121869506-be944380-cd1f-11eb-92b7-82d0022af6f3.png)
 
 Directory **GoProxyServer** contains the proxy server with proxies the **OriginalServer**.
@@ -21,7 +23,9 @@ While do so we can do following things:-
 
 Output:-
 1. http://localhost:3000/about.html
+
 ![image](https://user-images.githubusercontent.com/85868251/121870623-da4c1980-cd20-11eb-93ba-e141395c20fc.png)
 
 2. http://localhost:3000/admin/contact.html
+
 ![image](https://user-images.githubusercontent.com/85868251/121870682-e8019f00-cd20-11eb-8ae0-aa2bfcb61d90.png)
